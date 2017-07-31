@@ -1,0 +1,21 @@
+﻿1. A nested list is a list that appears as an element in another list.
+Example: [[1,2],2,3,5]
+2. Yes , we can have both interger and string in a list
+
+
+Ex 11.1:
+list(range(10,0,-2))
+>>>[10,8,6,4,2]
+if start < stop  and step < 0 the list return list without values
+Ex: list(range(0,10,-1))
+>>> []
+Rule: 
+- step need to have the same sign with (stop – start).If not, IDLE return []
+- they need to be intergers
+ex: list(range(0,10,1.5))
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    list(range(10,0,1.5))
+TypeError: 'float' object cannot be interpreted as an integer
+Ex 11.2:
+This fragment just create one instance. Because Python'll understand that alex is a variable assign to tess. alex isn't an another turtle. If we change properties of the variable, we also change the properties of the turtle tess that assigned to it. So the color of tess also change.
