@@ -61,11 +61,11 @@ def check_app(st):
 def checkword(word):
     for i in range(len(li_key)):
         if word == li_key[i]:
-            print(word,"     ",li_val[i])
+            print(word," appear    ",li_val[i], " times")
         else:
             continue
 ##operation
-print("wait a few second")
+print("wait a few seconds :)")
 main = check_app(st)
 li_key = sorted(main)
 li_val = []
@@ -80,4 +80,4 @@ for i in range(len(li_key)):
 out.close()
 ##search "alice"
 checkword("alice")
-print("done, look at alice_words.txt :)))")
+print("done, now look at alice_words.txt :)))")
