@@ -1,9 +1,9 @@
-
-
+## input files
 inp = open("alicefiles.txt","r")
 text = inp.read()
 inp.close()
 text=text.lower()
+## ignore special symbol
 text=text.replace("#"," ")
 text=text.replace("$"," ")
 text=text.replace("("," ")
@@ -35,8 +35,12 @@ text=text.replace(":"," ")
 text=text.replace("?"," ")
 text=text.replace("”"," ")
 text=text.replace("/"," ")
+text=text.replace("“"," ")
+text=text.replace("‘"," ")
+## convert text into list
 st = text.split()
 main = {}
+## function return how many time an element appear in a list
 def check_app(st):
     li = []
     for lo in st:
@@ -53,22 +57,27 @@ def check_app(st):
                 continue
         main[li[i]] = n
     return main
-main = check_app(st)
-li_key = sorted(main)
-li_val = []
-for i in range(len(li_key)):
-    li_val.append(main[li_key[i]])
-out = open("alicesuper.txt","w")
-out.write("Word            "+"Count"+"\n")
-out.write("=====================\n")
-for i in range(len(li_key)):
-    out.write("%-16s%-5s"%(li_key[i],li_val[i])+"\n")
-out.close()
+##function searching word in alice files
 def checkword(word):
     for i in range(len(li_key)):
         if word == li_key[i]:
             print(word,"     ",li_val[i])
         else:
             continue
-        
+##operation
+print("wait a few second")
+main = check_app(st)
+li_key = sorted(main)
+li_val = []
+for i in range(len(li_key)):
+    li_val.append(main[li_key[i]])
+##output file
+out = open("alice_words.txt","w")
+out.write("Word            "+"Count"+"\n")
+out.write("=====================\n")
+for i in range(len(li_key)):
+    out.write("%-16s%-5s"%(li_key[i],li_val[i])+"\n")
+out.close()
+##search "alice"
 checkword("alice")
+print("done, look at alice_words.txt :)))")
