@@ -1,4 +1,5 @@
 import sys
+## test function, return true if the expression is right
 def test(did_pass):
 
     linenum = sys._getframe(1).f_lineno
@@ -9,6 +10,7 @@ def test(did_pass):
         msg = ("Test at line {0} FAILED.".format(linenum))
     print(msg)
 n = 0
+## add fruit function
 def add_fruit(inventory, fruit, quantity=0):
     inventory[fruit] = 0
     inventory[fruit] += quantity

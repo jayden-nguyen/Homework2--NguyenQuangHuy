@@ -1,4 +1,4 @@
-
+## this function will build a table consist of letter and relative appearance time
 def let_app(strg):
     st = list(strg.lower())
     st = [lo for lo in st if lo != " "]
