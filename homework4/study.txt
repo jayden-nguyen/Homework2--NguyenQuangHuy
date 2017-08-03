@@ -1,0 +1,22 @@
+>>> d = {"apple":15,"bananas":35,"grapes":12}
+>>> d["bananas"]
+35
+>>> d["oranges"]=20
+>>> len(d)
+4
+>>> "grapes" in d
+True
+>>> d["pears"]
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    d["pears"]
+KeyError: 'pears'
+>>> d.get("pears",0)
+0
+>>> fruits = list(d.keys())
+>>> fruits.sort()
+>>> print(fruits)
+['apple', 'bananas', 'grapes', 'oranges']
+>>> del d["apple"]
+>>> "apple" in d
+False
