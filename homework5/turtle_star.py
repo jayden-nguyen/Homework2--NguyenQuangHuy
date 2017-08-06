@@ -1,10 +1,11 @@
 from turtle import *
+##coi vi tri ban dau la 0,0. x chieu duong sang phai, y chieu duong len tren
 def draw_star(x,y,length):
     penup()
     forward(x)
-    right(90)
-    forward(y)
     left(90)
+    forward(y)
+    right(90)
     pendown()
     for i in range(5):
         forward(length)
