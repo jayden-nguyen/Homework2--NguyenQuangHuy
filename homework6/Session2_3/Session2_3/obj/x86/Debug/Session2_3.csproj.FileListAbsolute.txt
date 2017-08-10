@@ -1,0 +1,4 @@
+E:\techkid\Homework2--NguyenQuangHuy\homework6\Session2_3\Session2_3\bin\Debug\Session2_3.exe
+E:\techkid\Homework2--NguyenQuangHuy\homework6\Session2_3\Session2_3\bin\Debug\Session2_3.pdb
+E:\techkid\Homework2--NguyenQuangHuy\homework6\Session2_3\Session2_3\obj\x86\Debug\Session2_3.exe
+E:\techkid\Homework2--NguyenQuangHuy\homework6\Session2_3\Session2_3\obj\x86\Debug\Session2_3.pdb

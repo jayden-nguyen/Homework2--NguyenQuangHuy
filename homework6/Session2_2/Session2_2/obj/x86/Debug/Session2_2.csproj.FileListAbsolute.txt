@@ -1,0 +1,4 @@
+E:\C#\Session2_2\Session2_2\bin\Debug\Session2_2.exe
+E:\C#\Session2_2\Session2_2\bin\Debug\Session2_2.pdb
+E:\C#\Session2_2\Session2_2\obj\x86\Debug\Session2_2.exe
+E:\C#\Session2_2\Session2_2\obj\x86\Debug\Session2_2.pdb

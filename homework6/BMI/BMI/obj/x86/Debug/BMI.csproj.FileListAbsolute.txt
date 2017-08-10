@@ -1,0 +1,4 @@
+E:\techkid\Homework2--NguyenQuangHuy\homework6\BMI\BMI\bin\Debug\BMI.exe
+E:\techkid\Homework2--NguyenQuangHuy\homework6\BMI\BMI\bin\Debug\BMI.pdb
+E:\techkid\Homework2--NguyenQuangHuy\homework6\BMI\BMI\obj\x86\Debug\BMI.exe
+E:\techkid\Homework2--NguyenQuangHuy\homework6\BMI\BMI\obj\x86\Debug\BMI.pdb
