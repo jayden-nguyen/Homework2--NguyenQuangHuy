@@ -19,11 +19,11 @@ namespace binaryConvert
                     n = deciToBina[i] / 2;
                     deciToBina[i] = n;
                 }
-                int[] arr = list.ToArray();
+                int[] arr = list.ToArray();// array with reverse order . For example 2 -> 01
                 int[] arr1 = new int[arr.Length];
                 for (int k = 0; k < arr.Length; k++)
                 {
-                    arr1[k] = arr[arr.Length - 1 - k];
+                    arr1[k] = arr[arr.Length - 1 - k];// array with true order, 2 -> 10
 
                 }
                 // Merging all digit in arr1 in to the string binary represent deciToBina[i]
