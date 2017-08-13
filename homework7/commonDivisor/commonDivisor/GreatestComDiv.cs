@@ -6,7 +6,7 @@ namespace commonDivisor
 {
     class GreatestComDiv
     {
-        // method return the Greatest Common divisor of two number
+        // method return the Greatest Common divisor of two number using Euclid algrorithm
         public int GCDOfTwo(int a, int b)
         {
             int n = 1;
