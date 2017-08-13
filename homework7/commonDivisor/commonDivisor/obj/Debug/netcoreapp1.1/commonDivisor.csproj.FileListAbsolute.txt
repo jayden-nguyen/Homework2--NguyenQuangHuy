@@ -1,0 +1,9 @@
+E:\techkid\Homework2--NguyenQuangHuy\homework7\commonDivisor\commonDivisor\bin\Debug\netcoreapp1.1\commonDivisor.deps.json
+E:\techkid\Homework2--NguyenQuangHuy\homework7\commonDivisor\commonDivisor\bin\Debug\netcoreapp1.1\commonDivisor.runtimeconfig.json
+E:\techkid\Homework2--NguyenQuangHuy\homework7\commonDivisor\commonDivisor\bin\Debug\netcoreapp1.1\commonDivisor.runtimeconfig.dev.json
+E:\techkid\Homework2--NguyenQuangHuy\homework7\commonDivisor\commonDivisor\bin\Debug\netcoreapp1.1\commonDivisor.dll
+E:\techkid\Homework2--NguyenQuangHuy\homework7\commonDivisor\commonDivisor\bin\Debug\netcoreapp1.1\commonDivisor.pdb
+E:\techkid\Homework2--NguyenQuangHuy\homework7\commonDivisor\commonDivisor\obj\Debug\netcoreapp1.1\commonDivisor.csprojResolveAssemblyReference.cache
+E:\techkid\Homework2--NguyenQuangHuy\homework7\commonDivisor\commonDivisor\obj\Debug\netcoreapp1.1\commonDivisor.AssemblyInfo.cs
+E:\techkid\Homework2--NguyenQuangHuy\homework7\commonDivisor\commonDivisor\obj\Debug\netcoreapp1.1\commonDivisor.dll
+E:\techkid\Homework2--NguyenQuangHuy\homework7\commonDivisor\commonDivisor\obj\Debug\netcoreapp1.1\commonDivisor.pdb
