@@ -6,19 +6,21 @@ namespace commonDivisor
 {
     class GreatestComDiv
     {
+        // method return the Greatest Common divisor of two number
         public int GCDOfTwo(int a, int b)
         {
-            while (a != 0 && b != 0)
-            {
+            int n = 1;
+            while(n != 0) {
                 if (a > b)
                     a = a - b;
                 else b = b - a;
-
+                n = (a < b) ? a : b;
             }
-            if (a == 0) return b;
-            else
-                return a;
+            if (a != 0) return a;
+            else return b;
+            
         }
+        // method return the Greatest Common divisor of a list
         public int GCDOfArray(int [] test)
         {
             int temp;
