@@ -81,6 +81,8 @@
     <Compile Include="Assets\script\level1script.cs" />
     <Compile Include="Assets\script\level2script.cs" />
     <Compile Include="Assets\script\level3script.cs" />
+    <Compile Include="Assets\script\level4barscript.cs" />
+    <Compile Include="Assets\script\level5controller.cs" />
     <Compile Include="Assets\script\startScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
